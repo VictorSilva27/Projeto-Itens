@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Itens</title>
+</head>
+<body>
+    
+                      <!-- Titulo  -->
+    <header>
+
+        <h1 class="titulo">Produtos</h1>
+
+    </header>
+
+     <main>
+                      <!-- Subtitulo  -->
+        <div>
+            <h3 class="table-titulo"> Tabela de produtos</h3>
+        </div>
+        
+
+                      <!-- Inputs -->
+      <section class="input-produto">
+    
+        <div class="produto">
+
+                <form>
+                  <div class="form-group">
+                    <label for="exampleFormControlFile1" class="lab-color"><span class="input-group-text input-txt" id="basic-addon1">Nome do Produto</span></label>
+                    <input type="text" class="form-control-file input" id="id_nome">
+                  </div>
+                </form>
+
+                <form>
+                  <div class="form-group">
+                    <label for="exampleFormControlFile1" class="lab-color"><span class="input-group-text input-txt" id="basic-addon1">Desc.</span></label>
+                    <input type="text" class="form-control-file input" id="id_desc">
+                  </div>
+                </form>
+
+                <form>
+                  <div class="form-group">
+                    <label for="exampleFormControlFile1" class="lab-color"><span class="input-group-text input-txt" id="basic-addon1">Preço</span></label>
+                    <input type="number" class="form-control-file input" id="id_preco">
+                  </div>
+                </form>
+             
+                        <!-- Botão de Incluir  -->
+        </div>
+           
+            <button class="btn" onclick="Tabela()"> Incluir </button>
+            
+      </section>
+
+        <!-- Tabela -->
+        <section class="table">
+
+          <table class="table-main">
+           <tbody id="table">
+              <tr>
+                <td>Nome</td>
+                <td>Desc.</td>
+                <td>Preço</td>
+              </tr>
+
+              <tr>
+                <td>Nome</td>
+                <td>Desc.</td>
+                <td>Preço</td>
+                <td><button class="btn2"><i class="fa-solid fa-trash-can"></i></button></td>
+                <td><button class="btn2"><i class="fa-solid fa-pencil"></i></button></td>
+              </tr>
+                
+            </tbody>    
+          </table>        
+        </section>
+    </main>
+    
+    <!-- Scripts -->
+    <script src="js/produto.js"></script>
+</body>
+</html>

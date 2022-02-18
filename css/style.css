@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bebas+Neue&family=Chakra+Petch:wght@300&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(108, 91, 124);
+}
+/* header */
+.titulo{
+
+    color: rgb(159, 170, 170);
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.table-titulo{
+
+    color: rgb(159, 170, 170);
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+
+.btn{
+    background-color: rgb(62, 75, 117);
+    color: rgb(159, 170, 170);
+    width: 160px;
+    height: 40px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 40;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.btn2{
+    background-color: rgb(62, 75, 117);
+    color: rgb(159, 170, 170);
+    width: 60px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 40;
+    font-size: 24px;    
+    margin-bottom: 4px;
+}
+
+.btn:hover{
+    background-color: aliceblue;
+    color: rgb(62, 75, 117);
+}
+
+.btn2:hover{
+    background-color: aliceblue;
+    color: rgb(62, 75, 117);
+}
+
+/* inputs */
+.input{
+    background-color: #c0aeae00;
+    color: whitesmoke;
+    margin-bottom: 25px;
+}
+
+.input::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+.input:hover{
+    background-color: #c0aeae00;
+    color: whitesmoke;
+}
+
+.input-produto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.produto{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+/* Tabela */
+.table-main{
+    width: auto;
+    display: flex;
+    border-collapse: collapse;  
+    color: #c0aeae96;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+}
+
+tbody, td{
+    border: 1px solid  #c0aeae96;
+    text-align: left;
+    padding: 8px;
+}
+
+  
+tr:nth-child(even) {
+    border: 1px solid  #c0aeae96;
+    background-color:  #c0aeae96;
+    color:  rgb(108, 91, 124);
+}
+
+/* cor do label */
+.lab-color{
+    color: azure;
+    text-align: center;
+}
+
+.input-txt{
+    background-color: #c0aeae00;
+    color: whitesmoke;
+}
