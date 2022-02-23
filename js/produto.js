@@ -21,6 +21,15 @@ function Tabela(idNome,idDesc,idPreco) {
 
     for (var i = 0; i < numColuna; i=5) {
         
+        
+        button = document.createElement('td');
+        button.innerHTML = "<button class='btn2'><i class='fa-solid fa-trash-can'></i></button></td>";
+        novaLinha.appendChild(button);
+
+        button = document.createElement('td');
+        button.innerHTML = "<button class='btn2'><i class='fa-solid fa-pencil'></i></button></td>";
+        novaLinha.appendChild(button);
+
         novaColuna = novaLinha.insertCell(i);
         novaColuna.innerHTML = "R$ " + idPreco;
 
